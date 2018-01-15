@@ -307,11 +307,13 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
         <li>Download the Git for Windows <a href="https://git-for-windows.github.io/">installer</a>.</li>
         <li>Run the installer and follow the steps bellow:
           <ol>
-            {% comment %} Git 2.8.2 Setup {% endcomment %}
+            {% comment %} Git 2.15.1.2 Setup {% endcomment %}
             {% comment %} Information {% endcomment %}
             <li>Click on "Next".</li>
             {% comment %} Select Components {% endcomment %}
             <li>Click on "Next".</li>
+            {% comment %} Choosing the default editor {% endcomment %}
+            <li>Click on "Use the Nano editor by default".</li>
             {% comment %} Adjusting your PATH environment {% endcomment %}
             <li>
               <strong>
@@ -456,7 +458,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
       <a href="https://www.youtube.com/watch?v=339AEqk9c-8">Video Tutorial</a>
       <p>
         nano is a basic editor and the default that instructors use in the workshop.
-        To install it,
+        If it is not currently installed,
         download the <a href="{{site.swc_installer}}">
           {% if page.carpentry == "swc" %}
           Software Carpentry
@@ -531,13 +533,8 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
     </p>
 
     <p>
-      We will teach Python using the <a href="https://jupyter.org/">Jupyter notebook</a>,
-      a programming environment that runs in a web browser. For this to work you will need a reasonably
-      up-to-date browser. The current versions of the Chrome, Safari and
-      Firefox browsers are all
-      <a href="https://jupyter-notebook.readthedocs.io/en/stable/notebook.html#browser-compatibility">supported</a>
-      (some older browsers, including Internet Explorer version 9
-      and below, are not).
+      We will teach Python using <a href="https://en.wikipedia.org/wiki/GNU_nano">nano</a>,
+      a test editor that runs in your terminal. When you install Git for Windows, check the option to install nano as the default editor. 
     </p>
 
   <div class="row">
