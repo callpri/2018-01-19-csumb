@@ -474,7 +474,8 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
       </p>
       <p>
         Others editors that you can use are
-        <a href="http://notepad-plus-plus.org/">Notepad++</a> or
+        <a href="http://notepad-plus-plus.org/">Notepad++</a>,
+	<a href="https://codelobster.com/">Codelobster</a> or
         <a href="http://www.sublimetext.com/">Sublime Text</a>.
         <strong>Be aware that you must
           add its installation directory to your system path.</strong>
